@@ -51,6 +51,9 @@ namespace HashTable
 
             string strHold = hashTable.Get("f8");
             System.Console.WriteLine("8th index word in the paragraph is  :" + strHold);
+
+            hashTable.Remove("f17");
+            System.Console.WriteLine(" 'avoidable' word deleted from the paragraph");
         }
     }
 }
